@@ -1,4 +1,6 @@
 migration/
-settings.py
 __pycache__/
+
+# Sensitive Info
+db.sqlite3
 .env
