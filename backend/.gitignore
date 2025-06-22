@@ -1,0 +1,4 @@
+migration/
+settings.py
+__pycache__/
+.env
