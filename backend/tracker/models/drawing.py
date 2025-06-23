@@ -8,3 +8,6 @@ class Drawing(models.Model):
     )
     image = models.ImageField(upload_to="drawings/")
     uploaded_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"Drawing for {self.solution.problem.title}"
