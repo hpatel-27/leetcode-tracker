@@ -26,3 +26,6 @@ class Problem(models.Model):
     )
     tags = models.ManyToManyField(Tag, blank=True)
     solved_at = models.DateTimeField(null=True, blank=True)
+
+    def __str__(self):
+        return f"{self.title} ({self.difficulty}) - {self.status}"
