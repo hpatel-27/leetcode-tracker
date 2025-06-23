@@ -14,4 +14,4 @@ class Solution(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return f"Solution for {self.problem.title} in {self.language}"
+        return f"Solution for {self.problem.title} [{self.language}]"
