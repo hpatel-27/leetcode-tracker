@@ -1,4 +1,4 @@
-migration/
+migrations/
 __pycache__/
 
 # Sensitive Info
